@@ -1,11 +1,11 @@
 import React from 'react';
+import './App.css';
 import {Greet} from "./comopents/Greet";
 
 function App() {
   return (
     <div className="App">
-
-      <Greet/>
+      <Greet name={'Imasha'}/>
     </div>
   );
 }

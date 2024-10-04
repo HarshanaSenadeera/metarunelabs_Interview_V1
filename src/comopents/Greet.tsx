@@ -1,8 +1,12 @@
-export const Greet = () => {
+type GreetProps={
+    name : string
+}
+
+export const Greet = (props:GreetProps) => {
 
     return(
         <div>
-            <h1>Welcome Metarune Labs...!</h1>
+            <h1>Welcome {props.name}...!</h1>
         </div>
     )
 
