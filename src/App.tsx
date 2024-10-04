@@ -5,7 +5,7 @@ import {Greet} from "./comopents/Greet";
 function App() {
   return (
     <div className="App">
-      <Greet name={'Imasha'} marks={40}/>
+      <Greet name={'Imasha'} marks={40} isLog={false}/>
     </div>
   );
 }
