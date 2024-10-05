@@ -8,6 +8,7 @@ import {Heading} from "./comopents/Heading";
 import {Oscar} from "./comopents/Oscar";
 import {Button} from "./comopents/Button";
 import {Input} from "./comopents/Input";
+import {Container} from "./comopents/Container";
 
 function App() {
 
@@ -65,9 +66,12 @@ function App() {
         }}/>
 
         {/*Input event props*/}
-
         <Input value=' ' handleChange={event => console.log(event)}/>
 
+
+        {/*Style props*/}
+
+        <Container style={{border:'2px solid red', padding:'20px'}}/>
     </div>
   );
 }
