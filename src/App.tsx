@@ -59,6 +59,10 @@ function App() {
             alert("Button Clicked...!")
         }}/>
 
+        <Button handleClick={(event,id) => {
+            console.log("Button Clicked...!",event,id)
+        }}/>
+
 
     </div>
   );
