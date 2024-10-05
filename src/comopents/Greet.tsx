@@ -2,7 +2,7 @@ type GreetProps={
     name : string
     /*put ? mark make it optional*/
     marks ?:number
-    isLog:boolean
+    isLog ?:boolean
 }
 
 export const Greet = (props:GreetProps) => {

@@ -51,7 +51,7 @@ function App() {
         </Oscar>
 
         {/*Optional props*/}
-        <Greet name={"Iamsha"}  isLog={false}/>
+        <Greet name={"Iamsha"} />
     </div>
   );
 }
