@@ -7,12 +7,15 @@ type list={
 export const PersonalList = (props:list) => {
 
     return(
+
         <div>
-            {props.names.map((name, index) => (
-                <div key={index}>
+
+            {props.names.map((name)=>(
+                <div>
                     {name.firstname} {name.lastname}
                 </div>
             ))}
+
         </div>
     )
 }

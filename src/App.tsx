@@ -3,14 +3,17 @@ import './App.css';
 import {Greet} from "./comopents/Greet";
 import {Person} from "./comopents/Person";
 import {PersonalList} from "./comopents/PersonalList";
+import {Status} from "./comopents/Status";
 
 function App() {
 
+    /*Object*/
     const personalName={
         f_name:"Harshana",
         l_name:"Senadeera"
     }
 
+    /*Array*/
     const personList=[
         {
             firstname:'Harshana',
@@ -35,6 +38,8 @@ function App() {
         <Person name={personalName}/>
 
         <PersonalList names={personList}/>
+
+        <Status status='loading'/>
     </div>
   );
 }
