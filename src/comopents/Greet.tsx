@@ -1,6 +1,7 @@
 type GreetProps={
     name : string
-    marks :number
+    /*put ? mark make it optional*/
+    marks ?:number
     isLog:boolean
 }
 
