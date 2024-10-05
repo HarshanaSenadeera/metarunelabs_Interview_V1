@@ -7,7 +7,6 @@ export const Heading = (props:childrenProps) => {
 
         <div>
             <h2>
-
                 {props.children}
             </h2>
         </div>

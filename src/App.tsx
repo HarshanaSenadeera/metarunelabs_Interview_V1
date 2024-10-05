@@ -5,6 +5,7 @@ import {Person} from "./comopents/Person";
 import {PersonalList} from "./comopents/PersonalList";
 import {Status} from "./comopents/Status";
 import {Heading} from "./comopents/Heading";
+import {Oscar} from "./comopents/Oscar";
 
 function App() {
 
@@ -42,7 +43,13 @@ function App() {
 
         <Status status='error'/>
 
-        <Heading> </Heading>
+        {/*child props*/}
+        <Oscar>
+            <Heading>
+                React child props advanced one
+            </Heading>
+        </Oscar>
+
     </div>
   );
 }
