@@ -7,6 +7,7 @@ import {Status} from "./comopents/Status";
 import {Heading} from "./comopents/Heading";
 import {Oscar} from "./comopents/Oscar";
 import {Button} from "./comopents/Button";
+import {Input} from "./comopents/Input";
 
 function App() {
 
@@ -63,6 +64,9 @@ function App() {
             console.log("Button Clicked...!",event,id)
         }}/>
 
+        {/*Input event props*/}
+
+        <Input value=' ' handleChange={event => console.log(event)}/>
 
     </div>
   );
