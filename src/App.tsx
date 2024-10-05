@@ -4,6 +4,7 @@ import {Greet} from "./comopents/Greet";
 import {Person} from "./comopents/Person";
 import {PersonalList} from "./comopents/PersonalList";
 import {Status} from "./comopents/Status";
+import {Heading} from "./comopents/Heading";
 
 function App() {
 
@@ -39,7 +40,9 @@ function App() {
 
         <PersonalList names={personList}/>
 
-        <Status status='loading'/>
+        <Status status='error'/>
+
+        <Heading> </Heading>
     </div>
   );
 }
