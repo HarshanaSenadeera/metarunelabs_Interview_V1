@@ -6,6 +6,7 @@ import {PersonalList} from "./comopents/PersonalList";
 import {Status} from "./comopents/Status";
 import {Heading} from "./comopents/Heading";
 import {Oscar} from "./comopents/Oscar";
+import {Button} from "./comopents/Button";
 
 function App() {
 
@@ -52,6 +53,13 @@ function App() {
 
         {/*Optional props*/}
         <Greet name={"Iamsha"} />
+        
+        {/*Click event props*/}
+        <Button handleClick={() => {
+            alert("Button Clicked...!")
+        }}/>
+
+
     </div>
   );
 }
