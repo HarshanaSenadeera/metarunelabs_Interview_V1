@@ -9,6 +9,7 @@ import {Oscar} from "./comopents/Oscar";
 import {Button} from "./comopents/Button";
 import {Input} from "./comopents/Input";
 import {Container} from "./comopents/Container";
+import {Logging} from "./state/Logging";
 
 function App() {
 
@@ -71,6 +72,8 @@ function App() {
 
         {/*Style props*/}
         <Container style={{border:'2px solid red', padding:'20px'}}/>
+
+        <Logging/>
     </div>
   );
 }
