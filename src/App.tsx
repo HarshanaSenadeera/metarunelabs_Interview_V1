@@ -21,16 +21,16 @@ function App() {
     /*Array*/
     const personList=[
         {
-            firstname:'Harshana',
-            lastname:'Senadeera'
+            f_name:'Harshana',
+            l_name:'Senadeera'
         },
         {
-            firstname:'Imasha',
-            lastname:'Madhushani'
+            f_name:'Imasha',
+            l_name:'Madhushani'
         },
         {
-            firstname:'Ashan',
-            lastname:'Gayeshma'
+            f_name:'Ashan',
+            l_name:'Gayeshma'
         },
 
 

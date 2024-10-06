@@ -1,8 +1,7 @@
+import {Name} from '../comopents/Presons.types'
+
 type list={
-    names:{
-       firstname:string
-       lastname:string
-    }[]
+    names:Name[]
 }
 export const PersonalList = (props:list) => {
 
@@ -12,7 +11,7 @@ export const PersonalList = (props:list) => {
 
             {props.names.map((name)=>(
                 <div>
-                    {name.firstname} {name.lastname}
+                    {name.f_name}{name.l_name}
                 </div>
             ))}
 
