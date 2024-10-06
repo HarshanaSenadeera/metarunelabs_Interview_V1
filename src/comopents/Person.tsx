@@ -1,9 +1,4 @@
-type person_name={
-    name:{
-        f_name:string
-        l_name:string
-    }
-}
+import {person_name} from '../comopents/Presons.types'
 export const Person = (props:person_name) => {
 
     return(
