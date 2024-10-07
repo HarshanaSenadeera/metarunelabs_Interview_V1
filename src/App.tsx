@@ -11,6 +11,7 @@ import {Input} from "./comopents/Input";
 import {Container} from "./comopents/Container";
 import {Logging} from "./state/Logging";
 import {Counter} from "./state/Counter";
+import {Box} from "./context/Box";
 
 function App() {
 
@@ -74,9 +75,14 @@ function App() {
         {/*Style props*/}
         <Container style={{border:'2px solid red', padding:'20px'}}/>
 
+        {/*Use State*/}
         <Logging/>
 
+        {/*Use reducer*/}
         <Counter/>
+
+        {/*Theme Context*/}
+        <Box/>
     </div>
   );
 }
