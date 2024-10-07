@@ -18,6 +18,7 @@ import {DomRef} from "./refs/DomRef";
 import {MutableRef} from "./refs/MutableRef";
 import {Private} from "./auth/Private";
 import {Profile} from "./auth/Profile";
+import {RandomNumber} from "./restriction/RandomNumber";
 
 function App() {
 
@@ -100,6 +101,11 @@ function App() {
 
         {/*Component props*/}
         <Private isLoggedIn={true} Component={Profile}/>
+
+        {/*Restriction*/}
+        <RandomNumber value={10} isPositive={true} />
+        <RandomNumber value={-5} isNegative={true} />
+        <RandomNumber value={0} isZero={true} />
 
 
     </div>
