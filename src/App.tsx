@@ -22,6 +22,7 @@ import {RandomNumber} from "./restriction/RandomNumber";
 import {Toast} from "./templateliterals/Toast";
 import {CustomButton} from "./html/Button";
 import {CustomComponent} from "./html/CustomComponent";
+import {Text} from "./Pholimorphic/Text";
 
 function App() {
 
@@ -120,6 +121,10 @@ function App() {
         </CustomButton>
 
         <CustomComponent name={"hatshana"}/>
+
+        <Text as='h1' size={"lg"}>Heading</Text>
+        <Text as='p' size={"sm"}>Para</Text>
+        <Text as='label' htmlFor='someId' size={"lg"} color='secondary'>Lable</Text>
 
     </div>
   );
