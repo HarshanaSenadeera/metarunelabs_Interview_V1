@@ -16,7 +16,8 @@ import {ThemeContextProvider} from "./context/ThemeContext";
 import {User} from "./state/User";
 import {DomRef} from "./refs/DomRef";
 import {MutableRef} from "./refs/MutableRef";
-import {ClassCounter} from "./class/ClassCounter";
+import {Private} from "./auth/Private";
+import {Profile} from "./auth/Profile";
 
 function App() {
 
@@ -96,6 +97,9 @@ function App() {
         {/*Use Ref*/}
         <DomRef/>
         <MutableRef/>
+
+        {/*Component props*/}
+        <Private isLoggedIn={true} Component={Profile}/>
 
 
     </div>
