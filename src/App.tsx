@@ -19,6 +19,7 @@ import {MutableRef} from "./refs/MutableRef";
 import {Private} from "./auth/Private";
 import {Profile} from "./auth/Profile";
 import {RandomNumber} from "./restriction/RandomNumber";
+import {Toast} from "./templateliterals/Toast";
 
 function App() {
 
@@ -107,6 +108,9 @@ function App() {
         <RandomNumber value={-5} isNegative={true} />
         <RandomNumber value={0} isZero={true} />
 
+
+        {/*Template Literals*/}
+        <Toast position={"left-bottom"}/>
 
     </div>
   );
