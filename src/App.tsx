@@ -16,6 +16,7 @@ import {ThemeContextProvider} from "./context/ThemeContext";
 import {User} from "./state/User";
 import {DomRef} from "./refs/DomRef";
 import {MutableRef} from "./refs/MutableRef";
+import {ClassCounter} from "./class/ClassCounter";
 
 function App() {
 
@@ -95,6 +96,8 @@ function App() {
         {/*Use Ref*/}
         <DomRef/>
         <MutableRef/>
+
+
     </div>
   );
 }
