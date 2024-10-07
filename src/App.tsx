@@ -14,6 +14,8 @@ import {Counter} from "./state/Counter";
 import {Box} from "./context/Box";
 import {ThemeContextProvider} from "./context/ThemeContext";
 import {User} from "./state/User";
+import {DomRef} from "./refs/DomRef";
+import {MutableRef} from "./refs/MutableRef";
 
 function App() {
 
@@ -90,6 +92,9 @@ function App() {
 
         <User/>
 
+        {/*Use Ref*/}
+        <DomRef/>
+        <MutableRef/>
     </div>
   );
 }
