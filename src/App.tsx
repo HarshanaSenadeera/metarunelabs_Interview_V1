@@ -20,6 +20,7 @@ import {Private} from "./auth/Private";
 import {Profile} from "./auth/Profile";
 import {RandomNumber} from "./restriction/RandomNumber";
 import {Toast} from "./templateliterals/Toast";
+import {CustomButton} from "./html/Button";
 
 function App() {
 
@@ -111,6 +112,11 @@ function App() {
 
         {/*Template Literals*/}
         <Toast position={"left-bottom"}/>
+
+        {/*Wrap HTML*/}
+        <CustomButton variant={'primary'} onClick={()=>console.log("clicked")}>
+            Goo
+        </CustomButton>
 
     </div>
   );
