@@ -12,6 +12,8 @@ import {Container} from "./comopents/Container";
 import {Logging} from "./state/Logging";
 import {Counter} from "./state/Counter";
 import {Box} from "./context/Box";
+import {ThemeContextProvider} from "./context/ThemeContext";
+import {User} from "./state/User";
 
 function App() {
 
@@ -82,7 +84,12 @@ function App() {
         <Counter/>
 
         {/*Theme Context*/}
-        <Box/>
+        <ThemeContextProvider>
+            <Box/>
+        </ThemeContextProvider>
+
+        <User/>
+
     </div>
   );
 }
