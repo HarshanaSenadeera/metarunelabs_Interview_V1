@@ -10,6 +10,7 @@ import {Button} from "./comopents/Button";
 import {Input} from "./comopents/Input";
 import {Container} from "./comopents/Container";
 import {Logging} from "./state/Logging";
+import {Counter} from "./state/Counter";
 
 function App() {
 
@@ -74,6 +75,8 @@ function App() {
         <Container style={{border:'2px solid red', padding:'20px'}}/>
 
         <Logging/>
+
+        <Counter/>
     </div>
   );
 }
