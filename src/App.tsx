@@ -21,6 +21,7 @@ import {Profile} from "./auth/Profile";
 import {RandomNumber} from "./restriction/RandomNumber";
 import {Toast} from "./templateliterals/Toast";
 import {CustomButton} from "./html/Button";
+import {CustomComponent} from "./html/CustomComponent";
 
 function App() {
 
@@ -117,6 +118,8 @@ function App() {
         <CustomButton variant={'primary'} onClick={()=>console.log("clicked")}>
             Goo
         </CustomButton>
+
+        <CustomComponent name={"hatshana"}/>
 
     </div>
   );
